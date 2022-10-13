@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ED615C328F7B02400BB22C7 /* prob1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ED615B828F7A6F600BB22C7 /* prob1.c */; };
+		4ED615C728F7B2B900BB22C7 /* prob2_improved.c in Sources */ = {isa = PBXBuildFile; fileRef = 4ED615C628F7B2B900BB22C7 /* prob2_improved.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		4ED615B828F7A6F600BB22C7 /* prob1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prob1.c; sourceTree = "<group>"; };
 		4ED615BF28F7AC8300BB22C7 /* prob2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prob2.c; sourceTree = "<group>"; };
 		4ED615C128F7AE7500BB22C7 /* prob3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = prob3.c; sourceTree = "<group>"; };
+		4ED615C628F7B2B900BB22C7 /* prob2_improved.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prob2_improved.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				4ED615B828F7A6F600BB22C7 /* prob1.c */,
 				4ED615BF28F7AC8300BB22C7 /* prob2.c */,
+				4ED615C628F7B2B900BB22C7 /* prob2_improved.c */,
 				4ED615C128F7AE7500BB22C7 /* prob3.c */,
 			);
 			path = Lab05;
@@ -123,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED615C328F7B02400BB22C7 /* prob1.c in Sources */,
+				4ED615C728F7B2B900BB22C7 /* prob2_improved.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
