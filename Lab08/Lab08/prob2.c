@@ -21,9 +21,9 @@ int main(void) {
     day_of_year+=99;
     
     if(day_of_year>365+leap_year(year)){
+        day_of_year-=365+leap_year(year);
         year+=1;
         set_days_in_month(year);
-        day_of_year-=365+leap_year(year);
     }
     
     printf("The 100th day is %d %d %d\n", year, which_month(year, day_of_year), which_day(year, day_of_year));
