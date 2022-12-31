@@ -531,6 +531,14 @@ void success_or_failure(int a[4][4]){
         }
     }
     
+    if(a[0][3]==a[1][3] || a[1][3]==a[2][3] || a[2][3]==a[3][3]){
+        return;
+    }
+    
+    if(a[3][0]==a[3][1] || a[3][1]==a[3][2] || a[3][2]==a[3][3]) {
+        return;
+    }
+    
     printf("\nGAME OVER!\n\n");
     exit(1);
     
