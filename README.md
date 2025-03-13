@@ -16,7 +16,7 @@ These are my solutions to the assignments for **Programming Practice (4190.103A)
 - **Lab 7:** Functions (variables, recursion)  
 - **Lab 8:** Arrays  
 - **Lab 9:** Pointers  
-- **Lab 10:** Characters and struct  
+- **Lab 10:** char and struct  
 - **Lab 11:** File handling and simple database system  
 
 ## Final Project
